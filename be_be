@@ -1,5 +1,5 @@
 Using a BackgroundWorker in C# is a good approach for performing lengthy operations in the background while keeping the UI responsive. However, if you want to cancel the operation after a certain period or if the user presses a cancel button, you need to implement cancellation logic. Here's how you can do it:
-
+```
 csharp
 Copy code
 using System;
@@ -72,6 +72,7 @@ namespace YourNamespace
         }
     }
 }
+```
 In this code:
 
 StartProcessing() method initiates the background processing.
